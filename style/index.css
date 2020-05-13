@@ -148,7 +148,7 @@ h3 {
     display: block;
     margin: 0 auto;
     align-content: center;
-    width: 25%;
+    width: 100%;
 }
 .flex-container {
     display: flex;
@@ -177,8 +177,9 @@ h3 {
     margin-top: 30px;
 }
 * p {
-    justify-items: center;
-    line-height: 1px;
+    line-height: 1.5em;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #footer-wrapper{
