@@ -80,6 +80,7 @@ h2 {
     font-size: 2em;
     letter-spacing: -0.015em;
     padding-bottom: 3px;
+    
 }
 h3 {
     font-size: 1.2em;
@@ -142,6 +143,7 @@ h3 {
     padding: 50px;
     text-align: center;
     line-height: auto;
+    width: 100%;
 }
 
 .portfolio-container {
@@ -187,6 +189,7 @@ h3 {
     padding: 30px;
     text-align: center;
     line-height: auto;
+    width: 100%
 }
 
 .footer-container {
