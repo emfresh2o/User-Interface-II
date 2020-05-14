@@ -171,7 +171,6 @@ form .submit {
     margin-top: 20px;
 }
 
-
 /*tablet - max-width 800px */
 
 @media(max-width: 800px){
@@ -195,3 +194,29 @@ form .submit {
         padding-bottom: 3px;    
     }
 }
+/* iPhone X version 
+
+@media(min-width: 375px){
+    #nav {
+        display: inline;
+        font-size: .5rem;
+        justify-content: space-evenly;
+    }    
+    #nav a {
+
+    }
+    h1 {
+        font-size: 1.5em;
+        letter-spacing: -0.025em;
+        font-weight: 300;
+    }
+        h1 strong {
+            font-weight: 500;
+        }
+    
+    h2 {
+        font-size: 1em;
+        letter-spacing: -0.015em;
+        padding-bottom: 3px;    
+    }
+}*/

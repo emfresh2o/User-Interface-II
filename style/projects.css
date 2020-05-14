@@ -68,7 +68,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0.75em 0;
     font-weight: 700;
 }
-
+h1 {
+    font-size: 2.5em;
+    letter-spacing: -0.015em;
+    font-weight: 300;
+    padding-top: 35px;
+}
+    h1 strong {
+        font-weight: 500;
+}
 h2 {
     font-size: 2em;
     letter-spacing: -0.015em;
@@ -179,6 +187,14 @@ h3 {
         text-align: center; 
         justify-content: space-evenly;
         margin: 0 auto;
+    }
+    h1 {
+        font-size: 2em;
+        letter-spacing: -0.015em;
+        font-weight: 300;
+    }
+        h1 strong {
+            font-weight: 500;
     }
     
     h2 {
