@@ -334,11 +334,12 @@ button {
     .footer-container {
         width: 50%;
     }
+/*
     button {
         font-size: 20px;
         background-color: whitesmoke;
         border-radius: 15px;
         box-shadow: 2px 2px 10px black;
         padding: 15px;
-    }
+    }*/
 }
