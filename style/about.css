@@ -193,3 +193,52 @@ h1 {
     }
     
 }
+/*mobile*/
+
+@media(max-width: 500px){
+    #nav {
+        max-width: 100%;
+    }
+    #nav a {
+        display: inline;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    #top-section {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-items: space-evenly;
+        margin: 0 auto;
+    
+    }
+    .photo {
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .text-area {
+        margin: 0 auto;
+        padding-top: 50px;
+        line-height: auto;
+    }
+    h1 {
+        font-size: 2em;
+        letter-spacing: -0.015em;
+        font-weight: 300;
+        width: 100%;
+        padding-left: 40px;
+    }
+        h1 strong {
+            font-weight: 500;
+    }
+    * p {
+        line-height: 1.2em;
+        font-size: 20px;
+        width:  90%;
+        margin: 0 auto;
+    }
+}

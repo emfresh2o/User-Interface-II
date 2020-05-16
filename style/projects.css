@@ -183,6 +183,9 @@ h3 {
 
 @media(max-width: 800px){
     #nav {
+        max-width: 100%;
+    }
+    #nav {
         display: inline;
         text-align: center; 
         justify-content: space-evenly;
@@ -245,5 +248,44 @@ h3 {
     .gallery-container {
         width: 48%;
         justify-content: space-around;
+    }
+}
+/* mobile */
+
+@media(max-width: 500px){
+    #nav {
+        max-width: 100%;
+    }
+    #nav a {
+        display: inline;
+        font-size: 18px;
+        margin: 0 auto;
+    
+    }
+    h1 {
+        font-size: 1.25em;
+        width: 100%;
+    }
+        h1 strong {
+            font-weight: 500;
+    }
+    #wrapper1 {
+        margin: 0 auto;
+        width: 80%;
+    }
+    #wrapper2 {
+        display: none;
+    }
+    .flex-container {
+        width: 80%;
+    }
+    .project-container {
+        width: 80%;
+    }
+    .photo-gallery {
+        display: none;
+    }
+    .gallery-container {
+        display: none;
     }
 }

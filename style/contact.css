@@ -151,9 +151,10 @@ form .submit {
 @media(max-width: 800px){
     #nav {
         display: inline;
+        text-align: center; 
         justify-content: space-evenly;
+        margin: 0 auto;
     }    
-    
     h1 {
         font-size: 2em;
         letter-spacing: -0.025em;
@@ -169,29 +170,25 @@ form .submit {
         padding-bottom: 3px;    
     }
 }
-/* iPhone X version 
 
-@media(min-width: 375px){
+/*mobile*/
+
+@media(max-width: 500px){
     #nav {
-        display: inline;
-        font-size: .5rem;
-        justify-content: space-evenly;
-    }    
+        max-width: 100%;
+    }
     #nav a {
-
+        display: inline;
+        font-size: 18px;
+        margin: 0 auto;
     }
-    h1 {
-        font-size: 1.5em;
-        letter-spacing: -0.025em;
-        font-weight: 300;
+    .contact-form  {
+        width: 100%;
     }
-        h1 strong {
-            font-weight: 500;
-        }
-    
-    h2 {
-        font-size: 1em;
-        letter-spacing: -0.015em;
-        padding-bottom: 3px;    
+    .form-control {
+        width: 400px;
     }
-}*/
+    form .submit {
+        width: 80%;
+    }
+}
